@@ -289,6 +289,10 @@ html, body{
 
 }
 
+.boxcontenth2:hover{
+    color: rgb(1, 118, 211);
+}
+
 .boxcontent p{
     margin-top: 22px;
     font-family: "Salesforce Sans", Arial, Helvetica, sans-serif;
