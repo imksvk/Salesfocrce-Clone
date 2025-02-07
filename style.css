@@ -150,6 +150,10 @@ html, body{
     font-size: large;
 }
 
+#stripdiscover u:hover{
+    text-decoration: none;
+}
+
 #content{
     width: 100%;
     height: 76%;
@@ -361,4 +365,99 @@ button:hover{
     margin-left: 10px;
     justify-content:center;
     align-items: center;
+}
+
+
+#page3{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    background-color: white;
+}
+
+
+#page3bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+
+}
+
+#page3content{
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    text-align: center;
+    width: 80%;
+    color: rgb(1, 43, 95);
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3content p{
+    line-height: 1.7;
+    font-size: large;
+    color: black;
+    margin-top: 20px;
+    font-family: "Salesforce Sans", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#page3box{
+    width: 100%;
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#page3box1{
+    height: 85%;
+    width: 12%;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgb(1, 118, 211);
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Salesforce Sans", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: large;
+    font-weight: 12px;
+    margin-bottom: 10px;
+}
+#page3box2{
+    height: 85%;
+    width: 12%;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(1, 118, 211) 2px;
+    border-radius: 8px;
+    color: rgb(1, 118, 211);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Salesforce Sans", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: large;
+    font-weight: 12px;
+    margin-bottom: 10px;
+
+}
+
+#page3box2:hover{
+    border-color: rgb(1, 43, 95);
+    color: rgb(1, 43, 95);
+}
+
+#page3box1:hover{
+    background-color: rgb(1, 43, 95);
 }
