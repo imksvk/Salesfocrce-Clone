@@ -375,6 +375,7 @@ button:hover{
     flex-direction: column;
     justify-content:end;
     background-color: white;
+
 }
 
 
@@ -385,6 +386,7 @@ button:hover{
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    /* background-size: auto; */
     margin-bottom: 30px;
 
 }
