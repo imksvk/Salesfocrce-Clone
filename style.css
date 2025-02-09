@@ -579,11 +579,15 @@ button:hover{
     margin-left: 20px;
     border: none;
     color: rgb(1, 43, 95);
-    font-size: large;
+    font-size: medium;
     text-decoration: underline;
     font-weight: bold;
 }
 
 #startlearning button:hover{
     text-decoration: none;
+}
+
+#logo2{
+    background-image: url(https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png);
 }
