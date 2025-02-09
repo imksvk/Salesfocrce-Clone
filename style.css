@@ -532,6 +532,30 @@ button:hover{
     align-items: center;
     margin-left: 120px;
 }
+#p4box2logo{
+    background-image: url(https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png);
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+#p4box3logo{
+    background-image: url(https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/sales-cloud-platform-quick-look/b91b2499486a772a4eee8ce55aa32b57_badge.png);
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
 
 #module{
     width: 100%;
@@ -586,8 +610,4 @@ button:hover{
 
 #startlearning button:hover{
     text-decoration: none;
-}
-
-#logo2{
-    background-image: url(https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png);
 }
