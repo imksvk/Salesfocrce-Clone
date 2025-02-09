@@ -489,9 +489,24 @@ button:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
-    
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
+#page4heading h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(1, 43, 95) ;
+    font-family: "Salesforce Sans", system-ui, -apple-system, blinkmacsystemfon;
+    padding: 8px;
+}
+
+#page4heading p{
+    color: black;
+    font-size: 20px;
+    font-weight:normal;
+}
+
 
 .page4box{
     background-color: blue;
