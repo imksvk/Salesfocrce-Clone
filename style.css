@@ -667,7 +667,7 @@ button:hover{
     height: 85%;
     display: flex;
     flex-direction: column;
-    /* background-color: bisque; */
+    background-color: rgb(1, 118, 211,0.05);
     align-items: center;
     justify-items: center;
     justify-content: center;
@@ -677,7 +677,8 @@ button:hover{
     background-size: contain;
     background-position: bottom;
     background-size: contain;
-    border-radius: 45%;
+    border-bottom-right-radius: 28%;
+    border-bottom-left-radius: 28%;
     
 }
  
@@ -763,6 +764,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    background-color: white;
 
 }
 
