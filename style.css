@@ -667,23 +667,37 @@ button:hover{
     height: 85%;
     display: flex;
     flex-direction: column;
-    background-color: bisque;
+    /* background-color: bisque; */
     align-items: center;
     justify-items: center;
     justify-content: center;
+    /* background-color: rgb(1, 118, 211,0.1); */
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-logos-bg-2.png?resize=2048,414);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    background-size: contain;
+    border-radius: 45%;
+    
 }
  
 
 .viewallcustomers button{
     border-radius: 5px;
-    border-color: rgb(1, 43, 95);
+    border: none;
+    border: 2px solid rgb(1, 118, 211);
     height: 50px;
     width: 200px;
     background-color: white;
-    color: rgb(1, 43, 95);
+    color: rgb(1, 118, 211);
     font-size: larger;
     margin-bottom: 60px;
-    margin-top: 90px;
+    margin-top: 10px;
+}
+
+.viewallcustomers button:hover{
+    color: rgb(1, 43, 95);
+    border-color: rgb(1, 43, 95);
 }
 
 /* .banners{
@@ -716,30 +730,49 @@ button:hover{
 }
 
 .bannerline1{
-    height: 40%;
-    background-color: yellow;
+    height: 35%;
+    /* background-color: yellow; */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
     padding-left: 100px;
     padding-right: 100px;
+   
+ 
 }
 
 .bannerline2{
-    height: 40%;
-    background-color: gray;
+    height: 35%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
     padding-left: 100px;
     padding-right: 100px;
+    
 }
 
 
 .bannerbox{
     height: 70%;
-    width: 22%;
-    background-color: red;
+    width: 16%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.bannerbox:hover{
+    cursor: pointer;
+}
+
+
+.bannerbox img{
+    height: 80%;
+    width: 70%;
+    ;
 }
